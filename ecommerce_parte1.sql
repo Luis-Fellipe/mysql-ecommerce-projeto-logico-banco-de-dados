@@ -52,10 +52,6 @@ create table product(
     );
     
 alter table product auto_increment = 1;
-    
--- Para ser continuado no desafio: Terminar de implementar a tabela e criar a conexão com as tabelas nescessárias
--- refletir essa modificação no diagrama de esquema relacional
--- Criar constraints relacionadas ao pagamento
 
 create table orders(
 	IdOrder int auto_increment primary key not null,
